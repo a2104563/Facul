@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Lucas/CLionProjects/untitled/Registradores.h
+stdio.h
+-
+stdlib.h
+-
+math.h
+-
+string.h
+-
+
+C:/Users/Lucas/CLionProjects/untitled/TipoI.h
+Registradores.h
+C:/Users/Lucas/CLionProjects/untitled/Registradores.h
+
+C:/Users/Lucas/CLionProjects/untitled/TipoJ.h
+Registradores.h
+C:/Users/Lucas/CLionProjects/untitled/Registradores.h
+
+C:/Users/Lucas/CLionProjects/untitled/TipoR.h
+Registradores.h
+C:/Users/Lucas/CLionProjects/untitled/Registradores.h
+
+C:/Users/Lucas/CLionProjects/untitled/main.c
+stdio.h
+-
+string.h
+-
+stdlib.h
+-
+TipoI.h
+C:/Users/Lucas/CLionProjects/untitled/TipoI.h
+TipoJ.h
+C:/Users/Lucas/CLionProjects/untitled/TipoJ.h
+TipoR.h
+C:/Users/Lucas/CLionProjects/untitled/TipoR.h
+Registradores.h
+C:/Users/Lucas/CLionProjects/untitled/Registradores.h
+
